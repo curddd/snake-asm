@@ -7,7 +7,7 @@ DATA SEGMENT PARA 'DATA'
     TIME_AUX DB 0       ;var for time
     BLOCK_SIZE DB 08h   ;size of one block
     PEBBLE_POS DW 00h   ;position of pebble
-    SNAKE_LENGTH DW 0Ah ;length of snake
+    SNAKE_LENGTH DW 01h ;length of snake
     SNAKE_ARRAY DW 1001 DUP(0000h)
     SNAKE_HEAD_X DW 00h
     SNAKE_HEAD_Y DW 00h
